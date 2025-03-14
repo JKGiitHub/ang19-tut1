@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Phrase } from "./phrase";
+// by me for ngIf
 import {CommonModule} from '@angular/common';
 
 const PHRASES: Phrase[] = [

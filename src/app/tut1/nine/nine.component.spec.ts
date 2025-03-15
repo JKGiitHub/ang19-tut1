@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CompBindComponent } from './comp-bind.component';
+import { NineComponent } from './nine.component';
 
-describe('CompBindComponent', () => {
-  let component: CompBindComponent;
-  let fixture: ComponentFixture<CompBindComponent>;
+describe('NineComponent', () => {
+  let component: NineComponent;
+  let fixture: ComponentFixture<NineComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [CompBindComponent]
+      imports: [NineComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(CompBindComponent);
+    fixture = TestBed.createComponent(NineComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

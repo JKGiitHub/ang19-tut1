@@ -1,2 +1,5 @@
 1. Component's decorator properties
 2. Binding - interpolation - You can also use this syntax to call functions, write expressions and more.
+3. Component in app.component.
+4. Control Flow in Components - @if @else (Angular template syntax) v17+
+5. Control Flow in Components - @for

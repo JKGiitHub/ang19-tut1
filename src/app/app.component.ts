@@ -4,6 +4,8 @@ import { CompBindComponent } from "./ang-templ/comp-bind/comp-bind.component";
 import { TwoComponent } from "./tut1/two/two.component";
 import { FourComponent } from "./tut1/four/four.component";
 import { FiveComponent } from "./tut1/five/five.component";
+import { SixComponent } from "./tut1/six/six.component";
+import { SevenComponent } from "./tut1/seven/seven.component";
 
 @Component({
 	selector: 'app-root',
@@ -12,7 +14,9 @@ import { FiveComponent } from "./tut1/five/five.component";
     CompBindComponent,
     TwoComponent,
     FourComponent,
-    FiveComponent
+    FiveComponent,
+    SixComponent,
+    SevenComponent
 ],
 	templateUrl: './app.component.html',
 	styleUrl: './app.component.scss'

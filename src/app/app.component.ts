@@ -6,6 +6,7 @@ import { FourComponent } from "./tut1/four/four.component";
 import { FiveComponent } from "./tut1/five/five.component";
 import { SixComponent } from "./tut1/six/six.component";
 import { SevenComponent } from "./tut1/seven/seven.component";
+import { EightComponent } from "./tut1/eight/eight.component";
 
 @Component({
 	selector: 'app-root',
@@ -16,7 +17,8 @@ import { SevenComponent } from "./tut1/seven/seven.component";
     FourComponent,
     FiveComponent,
     SixComponent,
-    SevenComponent
+    SevenComponent,
+    EightComponent
 ],
 	templateUrl: './app.component.html',
 	styleUrl: './app.component.scss'

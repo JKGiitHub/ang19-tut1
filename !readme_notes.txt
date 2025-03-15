@@ -5,3 +5,4 @@
 5. Control Flow in Components - @for
 6. binding: data property to html attribute 
 7. binding: event handling (& doing actions)
+8. Component Communication with @Input (send data to child component using it's attribute)

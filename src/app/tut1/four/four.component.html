@@ -1,0 +1,14 @@
+<!--Control Flow in Components - @if (Angular template syntax) для v17+ -->
+@if (isServerRunning) {
+    <p>Yes, the server is running.</p>
+    @if (isLoggedIn) {
+        <p>Welcome back, friend!</p>
+    } @else {
+        <p>User is not logged in.</p>
+    }
+} @else {
+    <p>No, the server is down.</p>
+}
+
+
+

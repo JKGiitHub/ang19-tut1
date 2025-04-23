@@ -1,0 +1,14 @@
+<!--Note: the use of track is required, 
+you may use the id or some other unique identifier.-->
+<p>Supported operation systems:</p>
+<ul>
+    @for (os of operatingSystems; track os.id) {
+    <li>{{ os.name }}</li>
+    }
+</ul>
+<p>Active users:</p>
+<ol>
+    @for (u of users; track u.id) {
+    <li>{{u.name}}</li>
+    }
+</ol>

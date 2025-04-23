@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CompBindComponent } from './comp-bind.component';
+import { FourComponent } from './four.component';
 
-describe('CompBindComponent', () => {
-  let component: CompBindComponent;
-  let fixture: ComponentFixture<CompBindComponent>;
+describe('FourComponent', () => {
+  let component: FourComponent;
+  let fixture: ComponentFixture<FourComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [CompBindComponent]
+      imports: [FourComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(CompBindComponent);
+    fixture = TestBed.createComponent(FourComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
